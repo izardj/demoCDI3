@@ -1,0 +1,5 @@
+<beans>
+	<intercpetors>
+		<class>interceptor.Auditor</class>
+	</intercpetors>
+</beans>
