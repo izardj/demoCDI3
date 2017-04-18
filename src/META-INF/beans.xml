@@ -1,5 +1,7 @@
 <beans>
 	<interceptors>
 		<class>interceptor.Auditor</class>
+		<class>interceptor.Connector</class>
+		<class>interceptor.Timor</class>
 	</interceptors>
 </beans>
