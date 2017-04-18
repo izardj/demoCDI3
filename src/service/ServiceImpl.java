@@ -5,7 +5,9 @@ import javax.annotation.PreDestroy;
 import javax.inject.Inject;
 
 import dao.IDao;
+import interceptor.Audited;
 
+@Audited
 public class ServiceImpl implements IService {
 
 	@Inject

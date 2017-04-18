@@ -1,5 +1,5 @@
 <beans>
-	<intercpetors>
+	<interceptors>
 		<class>interceptor.Auditor</class>
-	</intercpetors>
+	</interceptors>
 </beans>
